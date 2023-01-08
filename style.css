@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style-type: none;
+}
+
+body{
+  background: linear-gradient(rgba(231, 72, 72, 0.6), rgba(0, 0, 0, 0.5)), url('image/lidya-nada-MD_ha01Bk7c-unsplash.jpg') no-repeat; 
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-weight: normal;
+  font-size: 5rem;
+  color: yellow;
+}
+.countdown-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-text {
+  color:yellow;
+  font-weight: bold;
+  font-size: 8rem;
+  line-height: 1;
+  margin: 0 2.5rem;
+}
+.countdown-el{
+  text-align: center;
+}
+
+.countdown-el span{
+  font-size: 1.5rem;
+  color:yellow;
+}
